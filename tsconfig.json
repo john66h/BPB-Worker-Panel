@@ -1,10 +1,11 @@
 {
     "include": ["src"],
     "compilerOptions": {
+        "ignoreDeprecations": "6.0",
         "target": "esnext",
         "module": "esnext",
         "types": ["@cloudflare/workers-types"],
-        "moduleResolution": "node",
+        "moduleResolution": "node16",
         "baseUrl": "src",
         "strict": true,
         "esModuleInterop": true,
